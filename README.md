@@ -137,3 +137,7 @@ Access the UI at `http://localhost:5173`
 - Continue-as-new shouldn't be a big consideration for this use case (as it would take many conversational turns to trigger). Regardless, I should ensure that it's able to carry the agent state over to the new workflow execution.
 - Perhaps the UI should show when the LLM response is being retried (i.e. activity retry attempt because the LLM provided bad output)
 - Tests would be nice!
+
+# TODO for this branch
+- Probably keep data types, but move the activity and workflow code for the demo
+- Probably don't need the validator function if its the result from a tool call or confirmation step
